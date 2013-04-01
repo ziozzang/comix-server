@@ -1,4 +1,17 @@
-comix-server
+comix-server-debian
+============
+
+This is debian/ubuntu packed version of comix-server.
+You can run this package using debian/ubuntu package
+original version is https://github.com/song31/comix-server
+
+
+installation
+============
+if you want to modify your own version of comix-server, you can pack your own debian/ubuntu package using make-package.sh
+or you can download and install with deb file.
+
+Original Readme
 ============
 
 Comix-server is a PHP-based AirComics Server acting just as the Windows
