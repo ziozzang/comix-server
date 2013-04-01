@@ -14,7 +14,7 @@
 # You also need to change "manga" to "content" in AliasMatch
 # directive in httpd.conf-comix.
 ################################################################################
-$parent_path = "/volume1";
+$parent_path = "/var/comix-server";
 
 
 $is_debug = false;

@@ -1,0 +1,13 @@
+Source: comix-server
+Section: locals
+Priority: extra
+Maintainer: Jioh L. Jung <ziozzang@gmail.com>
+Build-Depends: debhelper (>= 8.0.0) ,
+Homepage: http://aircomics.kr/
+
+Package: comix-server
+Section: locals
+Architecture: all
+Depends: ${misc:Depends}, apache2, libapache2-mod-php5
+Description: AirComix for iOS server. debian/ubuntu repackaged.
+

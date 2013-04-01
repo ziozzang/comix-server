@@ -1,0 +1,9 @@
+Listen 31257
+<VirtualHost *:31257>
+  DocumentRoot "/var/comix-server"
+  AllowEncodedSlashes On
+  DirectoryIndex index.php
+  AliasMatch ^/welcome.102(.*)$ /var/comix-server/welcome.php
+  AliasMatch ^/manga(.*)$ /var/comix-server/handler.php
+</VirtualHost>
+

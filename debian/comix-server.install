@@ -1,0 +1,5 @@
+debian/apache/comix-server etc/apache2/sites-available/comix-server
+handler.php var/comix-server/
+index.php var/comix-server/
+welcome.php var/comix-server/
+

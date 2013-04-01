@@ -1,0 +1,5 @@
+#!/bin/sh
+
+a2ensite comix-server
+service apache2 restart
+
